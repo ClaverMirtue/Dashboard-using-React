@@ -1,0 +1,13 @@
+.revenue-chart-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.chart-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #0a2342;
+} 

@@ -1,0 +1,115 @@
+.reports-cards {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+.report-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+  flex: 1;
+  padding: 18px 18px 18px 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 160px;
+}
+.report-card-icon {
+  font-size: 2.2rem;
+  color: #8884d8;
+  background: #f4f6fa;
+  border-radius: 50%;
+  padding: 12px;
+}
+.report-card-title {
+  font-size: 1.05rem;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+.report-card-value {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #0a2342;
+}
+.report-card-change {
+  font-size: 0.95rem;
+  margin-top: 2px;
+}
+.reports-charts-row {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+.reports-chart-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+  flex: 1;
+  padding: 18px;
+  position: relative;
+  min-width: 260px;
+}
+.reports-chart-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #0a2342;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reports-pie-labels {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+.reports-pie-center {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0a2342;
+}
+.reports-table-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 24px;
+}
+.reports-table-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #0a2342;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 14px 12px;
+  text-align: left;
+}
+th {
+  background: #0a2342;
+  color: #fff;
+  font-weight: 500;
+}
+tr:nth-child(even) {
+  background: #f4f6fa;
+}
+.action-btn {
+  background: none;
+  border: none;
+  color: #0a2342;
+  margin-right: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.action-btn:hover {
+  color: #17335a;
+} 

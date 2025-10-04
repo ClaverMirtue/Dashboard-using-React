@@ -1,0 +1,83 @@
+.subscriptions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.add-subscription-btn {
+  background: #0a2342;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-subscription-btn:hover {
+  background: #17335a;
+}
+.subscriptions-cards {
+  display: flex;
+  gap: 24px;
+}
+.subscription-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px #0001;
+  flex: 1;
+  padding: 32px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 260px;
+}
+.subscription-price {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.subscription-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.subscription-desc {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 18px;
+}
+.subscription-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  width: 100%;
+}
+.subscription-features li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+.feature-icon {
+  color: #3bb77e;
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+.edit-subscription-btn {
+  background: #f4f6fa;
+  color: #222;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.edit-subscription-btn:hover {
+  background: #e5e7eb;
+}

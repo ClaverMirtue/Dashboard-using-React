@@ -1,0 +1,40 @@
+.users-table-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 24px;
+}
+.table-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #0a2342;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 14px 12px;
+  text-align: left;
+}
+th {
+  background: #0a2342;
+  color: #fff;
+  font-weight: 500;
+}
+tr:nth-child(even) {
+  background: #f4f6fa;
+}
+.action-btn {
+  background: none;
+  border: none;
+  color: #0a2342;
+  margin-right: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.action-btn:hover {
+  color: #17335a;
+} 
